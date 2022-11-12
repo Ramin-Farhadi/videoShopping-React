@@ -8,7 +8,7 @@ const Movies = () => {
   console.log(movies);
 
   const handleDelete = (id) => {
-    console.log(id);
+    // console.log(id);
     setMovies(movies.filter((movie) => movie._id !== id));
   };
 
